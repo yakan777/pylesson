@@ -1,0 +1,5 @@
+height=float(input('身長は?(cm)>'))
+weight=float(input('身長は?(kg)>'))
+bmi=weight/(height/100)/(height/100)
+print('BMIは',int(bmi),sep="")
+print(f'BMIは{bmi:.1f}')
